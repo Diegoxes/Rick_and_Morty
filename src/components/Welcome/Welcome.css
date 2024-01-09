@@ -1,0 +1,92 @@
+.welcome{
+    display: flex;
+    border-radius: 15px;
+    margin-top: 10px;
+    
+   flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+    
+
+}
+
+
+.descripcion{
+    font-size: 20px;
+    color: rgb(255, 251, 6);
+    
+    font-family: 'Times New Roman', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+   
+    width: 35%;
+    height: 500px;
+    
+    text-align: center;
+    
+    padding: 20px;
+    margin-left: 20px;
+    
+  
+   
+    
+    
+}
+
+    
+
+.footer {
+    margin-top:80px;  
+    margin-bottom: 10px;
+    
+    
+    
+    background-color: rgb(212, 154, 73);
+    width: 1300px;
+    border-radius: 15px;
+   
+}
+
+.whatsapp-icon img{
+    width: 50px;
+    height: 50px;
+    margin-right: 50px;
+}
+
+.linkedin-icon img {
+    width: 50px;
+    height: 50px;
+}
+
+
+/*.descripcion img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-left: 130px;
+    border-color: aliceblue;
+    
+}*/
+
+
+
+@font-face {
+    font-family: 'MiFuentePersonalizada';
+    /* Nombre de la fuente */
+    src: url('C:\Users\KARIN\Desktop\ProyectosPersonles\Rick_and_Morty\Cliente\rick_and_morty\src\components\Nav\get_schwifty.ttf') format('truetype');
+    /* Ruta a tu archivo de fuente y formato */
+  
+  }
+  .footer h3{
+    font-family: "MiFuentePersonalizada";
+    font-weight: bold;
+    font-size: 15px;
+    color: blueviolet;
+    text-shadow: 5px 5px 8px rgba(15, 207, 229, 0.89);
+    letter-spacing: 2px;
+  }
+
+
+ 

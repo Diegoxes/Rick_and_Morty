@@ -1,0 +1,50 @@
+.inputagregar{
+    width: 200px;
+  height: 20px;
+  background-color: #eff4de;
+  margin-left: 20px;
+}
+.botonagregar {
+  height: 22px;
+  margin-right: 10px;
+  font-size: 12px;
+  margin-left: 20px;
+  font-family: 'MiFuentePersonalizada';
+  background-color: rgb(235, 168, 23);
+  color: rgb(104, 12, 208); /* No es necesario una coma al final del valor rgb */
+  text-shadow: 3px 3px 6px rgba(15, 207, 229, 0.89);
+  letter-spacing: 2px;
+  font-weight: bold;
+  transition: transform 0.3s; 
+}
+
+.random {
+  height: 22px;
+  width: 120px;
+  margin-left: 10px;
+  font-size: 12px;
+  background-color: rgb(235, 168, 23);
+  font-family: 'MiFuentePersonalizada';
+  color: rgb(104, 12, 208); /* No es necesario una coma al final del valor rgb */
+  text-shadow: 3px 3px 6px rgba(15, 207, 229, 0.89);
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.searchbar {
+  display: flex;
+  justify-content: center;
+}
+
+@font-face {
+  font-family: 'MiFuentePersonalizada';
+src: url('C:\Users\KARIN\Desktop\ProyectosPersonles\Rick_and_Morty\Cliente\rick_and_morty\src\components\Nav\get_schwifty.ttf') format('truetype');
+}
+
+.botonagregar:hover {
+  transform: scale(1.3);
+}
+
+.random:hover{
+  transform: scale(1.3);
+}

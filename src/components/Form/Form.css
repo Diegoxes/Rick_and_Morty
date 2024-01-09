@@ -1,0 +1,38 @@
+.form{
+    display: flex;
+    justify-content: center;
+   
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+    
+   
+    
+}
+
+
+
+#idlogin{
+    /*background-color: aliceblue;*/
+    background-color: #f19f10;
+    font-size: 25px;
+    color:#ffffff;
+    font-weight: bold;
+    width: 200px;
+    align-items: center;
+    align-self: center;
+    border: 7px solid rgb(117, 6, 227);
+    border-radius: 4%;
+    padding: 10px;
+    transition: transform 1s;
+}
+.botonsub{
+    margin-top: 10px;
+}
+
+#idlogin:hover{
+    transform: scale(1.5);
+}

@@ -1,0 +1,20 @@
+body {
+  
+    background-repeat:no-repeat;  
+    
+   background-image:url(https://i.pinimg.com/originals/66/ed/04/66ed048c5c411c85c90434d8aea5b8cd.jpg);
+  /* background-color: #030328;*/
+    
+   
+    
+}
+
+
+.custom-cursor {
+  cursor: url(https://es.cursor.style/cursors/1745-portal-gun-cursor.svg), auto;
+}
+
+.cursor{
+  cursor: url(https://es.cursor.style/pointers/1745-portal-gun-pointer.svg), auto;
+}
+

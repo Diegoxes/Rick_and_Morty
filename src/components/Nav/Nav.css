@@ -1,0 +1,47 @@
+.navbar {
+  font-family: "MiFuentePersonalizada";
+
+  /*background-color:#797774;*/
+  background-image: url(https://binaryfortressdownloads.com/Download/WPF/Images/22747/WallpaperFusion-rick-and-morty-1680x480.jpg);
+  background-position: 0% 80%;
+  /*superior derecha ,inferior izquierda*/
+  background-size: cover;
+  border-radius: 15px;
+  margin-top: 20px;
+  justify-content: center;
+  font-weight: 900;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 1300px;
+  background-repeat: no-repeat;
+  height: 45px;
+  padding: 30px;
+  display: flex;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  font-size: 24px;
+
+}
+
+@font-face {
+  font-family: 'MiFuentePersonalizada';
+  /* Nombre de la fuente */
+  src: url('C:\Users\KARIN\Desktop\ProyectosPersonles\Rick_and_Morty\Cliente\rick_and_morty\src\components\Nav\get_schwifty.ttf') format('truetype');
+  /* Ruta a tu archivo de fuente y formato */
+
+}
+
+
+
+
+.link {
+  text-decoration: none;
+  color: rgb(104, 12, 208, );
+  text-shadow: 3px 3px 6px rgba(15, 207, 229, 0.89);
+
+}
+
+.link:hover {
+  font-size: 26px;
+}

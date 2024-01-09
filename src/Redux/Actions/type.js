@@ -1,0 +1,4 @@
+export const ADDFAVORITE="ADDFAVORITE";
+export const DELETEFAVORITE="DELETEFAVORITE";
+export const FILTRAR="FILTRAR";
+export const ORDENAR="ORDENAR";
